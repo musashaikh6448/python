@@ -12,4 +12,4 @@ def check_year (a):
     else :
         print(f"{a} Is Not leap Year")       
 
-check_year(2024)
+check_year(2028)

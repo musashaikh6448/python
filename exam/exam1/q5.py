@@ -6,4 +6,4 @@ def string_length(string):
         count +=1
     print(count)
 
-string_length("shaikh")
+string_length("shaikh musa")

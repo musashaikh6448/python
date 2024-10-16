@@ -1,7 +1,7 @@
 # 20)find the memory address of variable x
 
 
-x = 10
+x = 9
 
 
 memory_address = id(x)

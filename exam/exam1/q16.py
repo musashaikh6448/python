@@ -10,4 +10,4 @@ def check(n):
 
 
 
-check()
+check(-9)
