@@ -8,4 +8,6 @@ def check(n):
     else:
          print("The number is zero.")
 
-check(0)
+
+
+check()

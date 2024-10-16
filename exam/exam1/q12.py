@@ -8,3 +8,4 @@ x=int(input("enter radius of ciircle "))
 calculate_area(x)
 
 area = calculate_area(x)
+print(area)

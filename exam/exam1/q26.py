@@ -1,1 +1,0 @@
-# 26). Write a Python script that takes three numbers as input and prints the largest of the three numbers.
