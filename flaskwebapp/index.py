@@ -1,18 +1,18 @@
-from flask import Flask
+from flask import Flask,request,render_template
 
-# from mod1 import greetings
-
-# Create the Flask application
+# Initialize the Flask application
 app = Flask(__name__)
 
-# Define a route for the root URL
+# Define a route for the home page
 @app.route('/createuser', methods=['post'])
-def hello():
-    return 'Hello, World!'
+def postreq():
+    print(request.get_json())
+    return 'user created'
 @app.route('/home') 
 def diplay():
-    return "coming from home"
+    return render_template('index.html')
 
+\
 
 @app.route('/contactus')
 def contact():
@@ -24,8 +24,6 @@ def aboutus():
 def services():
     return "mern sd product"
 
-
-
-# Run the app if this script is executed
-if __name__ == '_main_':
+# Run the Flask application
+if __name__ == '__main__':
     app.run(debug=True)
